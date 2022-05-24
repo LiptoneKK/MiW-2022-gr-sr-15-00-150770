@@ -25,11 +25,10 @@ def normalizuj(arr):
       return arr / norms
 
 
-
 def zmiana_bazy(B, X):
       Xa = np.matmul(B, X)
       return Xa
 
 
-a = zmiana_bazy(b, Xb)
+a = zmiana_bazy(bT, Xb)
 print(a)
