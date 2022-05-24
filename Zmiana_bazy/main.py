@@ -19,11 +19,13 @@ def ortogon(arr):
 
       return  np.matmul(arr, arrT)
 
+print(ortogon(bT))
 
 def normalizuj(arr):
       norms = np.linalg.norm(arr)
       return arr / norms
 
+print(normalizuj(bT))
 
 def zmiana_bazy(B, X):
       Xa = np.matmul(B, X)
